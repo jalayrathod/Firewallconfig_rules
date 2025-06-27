@@ -1,0 +1,12 @@
+PS C:\Users\Jalay> Test-NetConnection -ComputerName localhost -Port 23     
+WARNING: TCP connect to (::1 : 23) failed                                  
+WARNING: TCP connect to (127.0.0.1 : 23) failed
+
+ComputerName           : localhost
+RemoteAddress          : ::1
+RemotePort             : 23
+InterfaceAlias         : Loopback Pseudo-Interface 1
+SourceAddress          : ::1
+PingSucceeded          : True
+PingReplyDetails (RTT) : 0 ms
+TcpTestSucceeded       : False
